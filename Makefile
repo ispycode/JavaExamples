@@ -1,9 +1,8 @@
-
 clean:
 	mvn clean
 
-package:
-	mvn package
+install: | clean
+	mvn install
 
-hello:
-	java -jar target/java-examples-1.0-SNAPSHOT.jar
+all: | clean install
+	java -jar target/JavaExamples-1.0-SNAPSHOT.jar

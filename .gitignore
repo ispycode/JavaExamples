@@ -1,9 +1,5 @@
-/target/
-
 # intelliJ
 .idea
 *.iml
 
-# mac
-.DS_Store
-
+out
